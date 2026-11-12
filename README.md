@@ -8,7 +8,7 @@ Add-in cho Microsoft Word và Excel giúp trình bày văn bản đúng thể th
 
 Không cần mã kích hoạt. Add-in không gửi thông tin máy hay đơn vị đi đâu.
 
-**Tác giả:** Lê Cường Việt - VPĐU xã Kon Plông
+Lê Cường Việt - VPĐU xã Kon Plông
 
 ---
 
