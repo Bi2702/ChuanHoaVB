@@ -109,6 +109,11 @@ Kính gửi: - Chi bộ thôn 1;
 
 Khi chuẩn hóa, các dòng được canh thẳng hàng với nơi nhận đầu tiên (gõ "Kính gửi:" riêng một dòng, hay dùng
 phím Tab sau dấu ":" đều được); tên dài xuống dòng thì thẳng với chữ sau dấu `-`.
+Nếu "Kính gửi" được đặt trong bảng tiêu đề, add-in tự đưa ra ngoài bảng rồi canh như trên.
+
+**Các trường hợp khác khi chuẩn hóa:**
+- Danh sách **đánh số tự động** (1., 2., gạch đầu dòng) trong nội dung được đổi thành gõ tay để thẳng lề như đoạn văn.
+- Dòng ghi chú trong ngoặc đơn có chữ "kèm theo", ví dụ *(có danh sách trích ngang kèm theo)*: giữ canh giữa, in nghiêng.
 
 ### 3. Văn bản chép từ web, PDF, Zalo
 
@@ -200,6 +205,11 @@ Muốn trả lại như cũ: bấm **Hoàn tác** (trước khi đóng Excel). S
 - Hướng dẫn chi tiết có trong tệp `HuongDan.txt` đi kèm bộ cài.
 
 ## Các phiên bản
+
+**1.1.2**
+- Kính gửi đặt trong bảng tiêu đề được đưa ra ngoài và canh thẳng hàng.
+- Ngày tháng chuyển lên dưới Tiêu ngữ không còn dính đường kẻ; giữ khoảng trống điền ngày.
+- Đánh số tự động đổi thành gõ tay cho thẳng lề; dòng "(... kèm theo)" giữ canh giữa.
 
 **1.1.1**
 - Ngày tháng nằm ngay dưới tiêu đề (cả khối Đảng, Nhà nước, MTTQ).
