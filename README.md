@@ -96,6 +96,20 @@ Mẹo: phần đầu văn bản và phần chữ ký nên đặt trong bảng kh
 - *Hạ cỡ chữ* (khuyên dùng): nới cột tên cơ quan; khối Nhà nước hạ Quốc hiệu 12, Tiêu ngữ và ngày tháng 13, tên cơ quan 12.
 - *Lấn lề trái*: giữ cỡ chữ, bảng tiêu đề lấn sang lề trái tối đa 15 mm.
 
+**Ngày tháng** được đặt ngay dưới dòng "ĐẢNG CỘNG SẢN VIỆT NAM" (hoặc Quốc hiệu - Tiêu ngữ); ô bên phải
+dòng số ký hiệu để trống.
+
+**Kính gửi / Kính trình nhiều nơi:** gõ mỗi nơi nhận một dòng, bắt đầu bằng dấu `-`:
+
+```
+Kính gửi: - Chi bộ thôn 1;
+          - Chi bộ thôn 2;
+          - Chi bộ Trường Tiểu học và THCS.
+```
+
+Khi chuẩn hóa, các dòng được canh thẳng hàng với nơi nhận đầu tiên (gõ "Kính gửi:" riêng một dòng, hay dùng
+phím Tab sau dấu ":" đều được); tên dài xuống dòng thì thẳng với chữ sau dấu `-`.
+
 ### 3. Văn bản chép từ web, PDF, Zalo
 
 Khi chuẩn hóa, phần nội dung được dọn tự động:
@@ -186,6 +200,10 @@ Muốn trả lại như cũ: bấm **Hoàn tác** (trước khi đóng Excel). S
 - Hướng dẫn chi tiết có trong tệp `HuongDan.txt` đi kèm bộ cài.
 
 ## Các phiên bản
+
+**1.1.1**
+- Ngày tháng nằm ngay dưới tiêu đề (cả khối Đảng, Nhà nước, MTTQ).
+- Kính gửi / Kính trình nhiều nơi canh thẳng hàng; mẫu Công văn, Tờ trình có sẵn dạng gửi nhiều nơi.
 
 **1.1.0**
 - Nhiều đơn vị ban hành cho mỗi khối (tối đa 9); khối Đảng có sẵn Đảng ủy xã, Văn phòng, Ban Xây dựng Đảng, Ủy ban Kiểm tra.
