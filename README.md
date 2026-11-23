@@ -86,8 +86,10 @@ Cách điền:
    có Quốc hiệu thì xét tên cơ quan để chọn Chính quyền / Công an / Quân đội / MTTQ.
 2. Bấm **Chuẩn hóa thể thức**. Add-in sửa khổ A4, lề, phông chữ, Quốc hiệu – Tiêu ngữ / tiêu đề Đảng,
    số ký hiệu, ngày tháng, tên loại, trích yếu, Kính gửi, nội dung, chữ ký, Nơi nhận, số trang;
-   gom chữ lẻ cuối đoạn; dọn văn bản chép về.
+   gom chữ lẻ cuối đoạn; dọn văn bản chép về; dò từ nghi sai chính tả.
 3. Đọc **báo cáo** hiện ra: phần *Đã chuẩn hóa* và các điểm *Cần kiểm tra trước khi trình ký*.
+   Từ nghi sai chính tả (*nghành, sử lý, tập chung, của của*...) được gắn **ghi chú bên lề** kèm gợi ý sửa;
+   add-in không tự sửa chữ. Sửa xong thì xóa ghi chú: thẻ **Review (Xem lại) → Delete (Xóa)**.
 4. Không ưng ý: bấm **Ctrl+Z** một lần để hoàn tác toàn bộ.
 
 Mẹo: phần đầu văn bản và phần chữ ký nên đặt trong bảng không viền (như văn bản mẫu của add-in).
@@ -205,6 +207,10 @@ Muốn trả lại như cũ: bấm **Hoàn tác** (trước khi đóng Excel). S
 - Hướng dẫn chi tiết có trong tệp `HuongDan.txt` đi kèm bộ cài.
 
 ## Các phiên bản
+
+**1.1.3**
+- Chuẩn hóa dò thêm từ nghi sai chính tả (sai cấu tạo âm tiết, cụm từ hay viết sai, gõ lặp từ), ghi chú bên lề kèm gợi ý sửa.
+- Văn bản được đặt ngôn ngữ tiếng Việt, Word không gạch đỏ theo từ điển tiếng Anh.
 
 **1.1.2**
 - Kính gửi đặt trong bảng tiêu đề được đưa ra ngoài và canh thẳng hàng.
