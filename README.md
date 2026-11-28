@@ -93,13 +93,19 @@ Cách điền:
 4. Không ưng ý: bấm **Ctrl+Z** một lần để hoàn tác toàn bộ.
 
 Mẹo: phần đầu văn bản và phần chữ ký nên đặt trong bảng không viền (như văn bản mẫu của add-in).
+Văn bản gõ phần đầu bằng Tab, dấu cách hay mỗi dòng một đoạn (không có bảng) vẫn chuẩn hóa được: add-in tự
+dựng lại bảng tiêu đề; đường kẻ gõ bằng ký tự (`────`, `-----`) được bỏ và kẻ lại đúng chuẩn.
+
+**Văn bản khổ ngang** (biểu mẫu, phụ lục bảng biểu): chỉ chuẩn hóa phần đầu (tên cơ quan, tiêu đề, ngày tháng,
+tên loại); lề trang, nội dung và bảng giữ nguyên.
 
 **Tên cơ quan dài bị rớt dòng:** chọn ở ô **Tên dài**, rồi bấm Chuẩn hóa lại:
 - *Hạ cỡ chữ* (khuyên dùng): nới cột tên cơ quan; khối Nhà nước hạ Quốc hiệu 12, Tiêu ngữ và ngày tháng 13, tên cơ quan 12.
 - *Lấn lề trái*: giữ cỡ chữ, bảng tiêu đề lấn sang lề trái tối đa 15 mm.
 
-**Ngày tháng** được đặt ngay dưới dòng "ĐẢNG CỘNG SẢN VIỆT NAM" (hoặc Quốc hiệu - Tiêu ngữ); ô bên phải
-dòng số ký hiệu để trống.
+**Ngày tháng:** khối Đảng đặt ngay dưới dòng "ĐẢNG CỘNG SẢN VIỆT NAM" (ô bên phải dòng số ký hiệu để trống);
+khối Chính quyền đặt ở hàng dưới, ngang dòng "Số:", cách hàng Quốc hiệu - Tiêu ngữ 16pt.
+Trích yếu **V/v** của khối Chính quyền in đứng, cỡ 13 (chọn 13 hoặc 14 ở ô **Trích yếu V/v**).
 
 **Kính gửi / Kính trình nhiều nơi:** gõ mỗi nơi nhận một dòng, bắt đầu bằng dấu `-`:
 
@@ -207,6 +213,12 @@ Muốn trả lại như cũ: bấm **Hoàn tác** (trước khi đóng Excel). S
 - Hướng dẫn chi tiết có trong tệp `HuongDan.txt` đi kèm bộ cài.
 
 ## Các phiên bản
+
+**1.1.4**
+- Khối Chính quyền: trích yếu V/v in đứng, cỡ 13 (chọn 13-14); ngày tháng ngang dòng "Số:", cách hàng trên 16pt.
+- Phần đầu gõ bằng Tab / dấu cách / Shift+Enter (không có bảng) được tự dựng lại bảng tiêu đề; đường kẻ gõ bằng ký tự được kẻ lại chuẩn.
+- Nhận thêm tên loại (Bản tự đánh giá, Bản kiểm điểm, Danh sách...); dòng trên "-----" căn giữa; giữ nguyên dòng "PHỤ LỤC" trên bảng tiêu đề.
+- Văn bản khổ ngang: chỉ chuẩn hóa phần đầu. Sửa giãn đoạn quá xa ở văn bản chép từ web.
 
 **1.1.3**
 - Chuẩn hóa dò thêm từ nghi sai chính tả (sai cấu tạo âm tiết, cụm từ hay viết sai, gõ lặp từ), ghi chú bên lề kèm gợi ý sửa.
